@@ -10,10 +10,10 @@ namespace Library
 {
     internal class DataBase
     {
-        // SqlConnection object to manage the connection to the database
+        
         private SqlConnection sqlConnection = new SqlConnection(@"Data Source=DESKTOP-AHJPH50\SQLEXPRESS01; Initial Catalog=Library; Integrated Security=True");
 
-        // Method to open the database connection
+        
         public void openConnection()
         {
             try
@@ -30,7 +30,7 @@ namespace Library
             }
         }
 
-        // Method to close the database connection
+       
         public void closeConnection()
         {
             try
